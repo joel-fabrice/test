@@ -1,0 +1,112 @@
+body
+{
+    background: url('komenan.jpeg');
+}
+h1
+{
+    font-family: 'crete round', serif;
+    font-size: 45px;
+    color: #ffffff;
+}
+h2
+{
+    color: #ff7a00;
+    font-size: 25px;
+}
+h3
+{
+    font-size: 30px;
+    color: #444;
+}
+h4
+{
+    font-size: 24px;
+    color: #444;
+}
+p
+{
+    line-height: 20px;
+    color: #ffffff;
+    padding: 60px;
+}
+ul
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: #f4f6f6;
+}
+.debut
+{
+    width: 940px;
+    margin: 0% auto;
+    padding:0 10px;
+}
+.orange
+{
+    color: #ff7a00;
+}
+header
+{
+    height: 120px;
+}
+header h1
+{
+    float: left;
+    margin-top: 32px;
+    border-bottom: #ff7a00 solid 2px;
+}
+header nav
+{
+    float: right;
+    margin-top: 50px;
+} 
+header nav ul li
+{
+    display: inline-block;
+    float: left;
+}
+header nav ul li a
+{
+    /* text-transform: uppercase; */
+    font-weight:bold ;
+    margin-right: 20px;
+    
+}
+header nav ul li a:hover
+{
+    color:  #ff7a00;
+    font-size: 20px;
+    border-bottom: #ff7a00 1px solid;
+}
+#image-principal
+{
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 80px 1em;
+   
+}
+#image-2
+{
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 80px 10em;
+}
+#image-3
+{
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin: 80px 10em;
+}
+.modifier,.modifier-3,.modifier-2
+{
+    height: 200px;
+    width: 700px;
+    box-shadow:3px 3px 3px 5px  #ff7a00 ;
+    border-radius: 10px;
+}
